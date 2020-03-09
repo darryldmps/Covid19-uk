@@ -8,11 +8,16 @@
 <style>
 	body { margin: 0; padding: 0; }
 	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+	h1 {padding 20px;}
+	h2{padding 20px;}
 </style>
 
 </head>
 
 <body>
+<h1>Table of confirmed cases of COVID-19 in England</h1>
+<h2>These data are as of 9:00am on 8 March 2020. </h2>
+	
 <div id="map"></div>
  
 <script>
@@ -28,11 +33,11 @@ map.on('load', function() {
   // Add a new source from our GeoJSON data and
   // set the 'cluster' option to true. GL-JS will
   // add the point_count property to your source data.
-  map.addSource('earthquakes', {
+  map.addSource('Infections', {
     type: 'geojson',
     // Point to GeoJSON data. This example visualizes all M1.0+ earthquakes
     // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
-    data: 'https://api.myjson.com/bins/1ef94q',
+    data: 'https://api.jsonbin.io/b/5e66421703d6af38987011be',
     cluster: true,
     clusterMaxZoom: 14, // Max zoom to cluster points on
     clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
@@ -41,7 +46,7 @@ map.on('load', function() {
   map.addLayer({
     id: 'clusters',
     type: 'circle',
-    source: 'earthquakes',
+    source: 'Infections',
     filter: ['has', 'point_count'],
     paint: {
       // Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
