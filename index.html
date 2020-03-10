@@ -7,7 +7,7 @@
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css' rel='stylesheet' />
 <style>
 	body { margin: 0; padding: 0; }
-	#map { position: absolute; top: 150px; bottom: 0; width: 100%; }
+	#map { position: absolute; top: 200px; bottom: 0; width: 100%; }
 	h1 {padding-left: 20px;}
 	h2 {padding-left: 20px;}
 </style>
@@ -17,6 +17,10 @@
 <body>
 <h1>Map of confirmed cases of COVID-19 in England</h1>
 <h2>These data are as of 9:00am on 9th March 2020. </h2>
+<h3>Zoom in on and click/tap circle to see more information </h3>
+<h3>SNote: Data may be subject to delays in case confirmation and reporting, as well as ongoing data cleaning.
+Location is based on case residential postcode. When this is not available, NHS trust or reporting laboratory postcode is used. The data is therefore subject to change.
+Counts for Isles of Scilly and City of London are combined with Cornwall and Hackney respectively for disclosure control.ome datapoint represent coutnis </h3>
 	
 <div id="map"></div>
  
@@ -25,19 +29,19 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFycnlsZG1wcyIsImEiOiJjazdnaHEwNnUwOWNhM2ZsM
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/dark-v10',
-  center: [-1.553186, 52.883609],
-  zoom: 4
+  center: [-103.59179687498357, 40.66995747013945],
+  zoom: 3
 });
 
 map.on('load', function() {
   // Add a new source from our GeoJSON data and
   // set the 'cluster' option to true. GL-JS will
   // add the point_count property to your source data.
-  map.addSource('Infections', {
+  map.addSource('earthquakes', {
     type: 'geojson',
     // Point to GeoJSON data. This example visualizes all M1.0+ earthquakes
     // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
-    data: 'https://api.myjson.com/bins/daffq',
+    data: 'https://api.myjson.com/bins/ftkau',
     cluster: true,
     clusterMaxZoom: 14, // Max zoom to cluster points on
     clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
@@ -46,7 +50,7 @@ map.on('load', function() {
   map.addLayer({
     id: 'clusters',
     type: 'circle',
-    source: 'Infections',
+    source: 'earthquakes',
     filter: ['has', 'point_count'],
     paint: {
       // Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
@@ -78,7 +82,7 @@ map.on('load', function() {
   map.addLayer({
     id: 'cluster-count',
     type: 'symbol',
-    source: 'Infections',
+    source: 'earthquakes',
     filter: ['has', 'point_count'],
     layout: {
       'text-field': '{point_count_abbreviated}',
@@ -90,7 +94,7 @@ map.on('load', function() {
   map.addLayer({
     id: 'unclustered-point',
     type: 'circle',
-    source: 'Infections',
+    source: 'earthquakes',
     filter: ['!', ['has', 'point_count']],
     paint: {
       'circle-color': '#11b4da',
@@ -106,7 +110,7 @@ map.on('load', function() {
       layers: ['clusters']
     });
     var clusterId = features[0].properties.cluster_id;
-    map.getSource('Infections').getClusterExpansionZoom(
+    map.getSource('earthquakes').getClusterExpansionZoom(
       clusterId,
       function(err, zoom) {
         if (err) return;
@@ -118,9 +122,43 @@ map.on('load', function() {
       }
     );
   });
+
+  // When a click event occurs on a feature in
+  // the unclustered-point layer, open a popup at
+  // the location of the feature, with
+  // description HTML from its properties.
+  map.on('click', 'unclustered-point', function(e) {
+
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var inf = e.features[0].properties.infections;
+    var loc = e.features[0].properties.place;
+
+
+
+    // Ensure that if the map is zoomed out such that
+    // multiple copies of the feature are visible, the
+    // popup appears over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+      .setLngLat(coordinates)
+      .setHTML("Location: " + loc + "</br>Infections: " + inf)
+      .addTo(map);
+  });
+
+  map.on('mouseenter', 'clusters', function() {
+    map.getCanvas().style.cursor = 'pointer';
+  });
+  map.on('mouseleave', 'clusters', function() {
+    map.getCanvas().style.cursor = '';
+  });
 });
 
+
 </script>
- 
+ 	<h3> Source: https://www.gov.uk/government/publications/coronavirus-covid-19-number-of-cases-in-england/coronavirus-covid-19-number-of-cases-in-england </h3>
+
 </body>
 </html>
