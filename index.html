@@ -10,6 +10,8 @@
 	#map { position: absolute; top: 260px; bottom: 0; width: 100%; }
 	h1 {padding-left: 20px;}
 	h2 {padding-left: 20px;}
+	h3 {padding-left: 20px;}
+	h4 {padding-left: 20px;}
 </style>
 
 </head>
@@ -18,7 +20,7 @@
 <h1>Map of confirmed cases of COVID-19 in England</h1>
 <h2>These data are as of 9:00am on 9th March 2020. </h2>
 <h3>Zoom in on and click/tap circle to see more information </h3>
-<h3>SNote: Data may be subject to delays in case confirmation and reporting, as well as ongoing data cleaning.
+<h4>SNote: Data may be subject to delays in case confirmation and reporting, as well as ongoing data cleaning.
 Location is based on case residential postcode. When this is not available, NHS trust or reporting laboratory postcode is used. The data is therefore subject to change.
 Counts for Isles of Scilly and City of London are combined with Cornwall and Hackney respectively for disclosure control.ome datapoint represent coutnis </h3>
 	
@@ -29,8 +31,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFycnlsZG1wcyIsImEiOiJjazdnaHEwNnUwOWNhM2ZsM
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/dark-v10',
-  center: [-120, 50],
-  zoom: 2
+  center: [-1.553186, 52.883609],
+  zoom: 4
 });
 
 map.on('load', function() {
@@ -198,7 +200,7 @@ map.on('load', function() {
 
 });
 </script>
- 	<h3> Source: https://www.gov.uk/government/publications/coronavirus-covid-19-number-of-cases-in-england/coronavirus-covid-19-number-of-cases-in-england </h3>
+ 	<h4> Source: https://www.gov.uk/government/publications/coronavirus-covid-19-number-of-cases-in-england/coronavirus-covid-19-number-of-cases-in-england </h3>
 
 </body>
 </html>
