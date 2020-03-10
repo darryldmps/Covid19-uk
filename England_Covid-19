@@ -1,0 +1,804 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Bournemouth_Poole_Christchurch",
+        "mag": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8779754638671875,
+          50.72167742756552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Barnet",
+        "mag": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20359039306640625,
+          51.65285638822185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Barnsley",
+        "cases": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4838409423828125,
+          53.5521390134073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Birmingham",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8958282470703123,
+          52.475670808648516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Bradford",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.758133,
+          53.799391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Bolton",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.429351806640625,
+          53.576607731902925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Bracknell Forest",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7444095611572266,
+          51.41505339509656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Brent, London Borough of",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2962017059326172,
+          51.55135216423222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Brighton and Hove",
+        "infections": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15089035034179688,
+          50.8340229201368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Buckinghamshire, County of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.811308,
+          51.807525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Bristol, City of",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.596893310546875,
+          51.454648722710076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Bromley",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.01476287841796875,
+          51.402204296190476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Bury",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2923660278320312,
+          53.595765008920814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Camden, London Borough of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14110565185546875,
+          51.54024971769134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Cornwall and Isles of Scilly, County of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.052686,
+          50.266091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Cumbria, County of",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.79744,
+          54.577194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Coventry",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.511993408203125,
+          52.40765519406239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Derbyshire, County of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5651226043701172,
+          53.10482067379507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Devon, County of",
+        "infections": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.532555103302002,
+          50.71537375116743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Dudley",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0824241638183594,
+          52.51120638909939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Ealing",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3050422668457031,
+          51.51248174803477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Enfield",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08205413818359375,
+          51.65157833502398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Essex, County of",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4517912864685058,
+          51.56908110176274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Gloucestershire, County of",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.238185405731201,
+          51.8642755032042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Hackney and City of London",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07600307464599608,
+          51.53124033358303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Hammersmith and Fulham, London Borough of",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21341800689697266,
+          51.49021509660046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Hampshire, County of",
+        "infections": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3031673431396484,
+          51.05369669418414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Harrow",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33748626708984375,
+          51.58080321588551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Havering, London Borough of",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20575761795043943,
+          51.581389908929395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Hertfordshire, County of",
+        "infetions": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.23603439331054685,
+          51.81057823543418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Hillingdon",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45344352722167974,
+          51.53240164320126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Hounslow",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3616905212402343,
+          51.46812470399791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Isle of Wight",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.333465576171875,
+          50.66426095751329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Kensington and Chelsea, Royal Borough of",
+        "infections": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19373059272766113,
+          51.49918584512919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Kent, County of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5194473266601562,
+          51.277373881191004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Kingston upon Hull, City of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33954620361328125,
+          53.74261986682994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Lambeth, London Borough of",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11591434478759764,
+          51.493381444728044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Lancashire, County of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.704610824584961,
+          53.75051252780799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Leeds",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.549072265625,
+          53.79416183737104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Leicestershire, County of",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.196286678314209,
+          52.758450861260854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Lewisham",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.009698867797851562,
+          51.46213587023546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Lincolnshire, County of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1605677604675293,
+          52.94504996457013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Liverpool",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9862213134765625,
+          53.40421057583339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Luton",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.41748046875,
+          51.878186564984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Manchester",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2467041015625,
+          53.47619600229145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Medway, Conurbation of",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5407762527465819,
+          51.411306114230904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Merton, London Borough of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20645499229431152,
+          51.409432358614694
+        ]
+      }
+    }
+  ]
+}
