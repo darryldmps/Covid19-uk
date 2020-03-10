@@ -8,7 +8,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "place": "Bournemouth_Poole_Christchurch",
-        "mag": 2
+        "infections": 2
       },
       "geometry": {
         "type": "Point",
@@ -25,7 +25,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "place": "Barnet",
-        "mag": 5
+        "infections": 5
       },
       "geometry": {
         "type": "Point",
@@ -42,7 +42,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "place": "Barnsley",
-        "cases": 2
+        "infections": 2
       },
       "geometry": {
         "type": "Point",
@@ -797,6 +797,601 @@
         "coordinates": [
           -0.20645499229431152,
           51.409432358614694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Milton Keynes",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7614898681640625,
+          52.03897658307622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Newcastle upon Tyne",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.61224365234375,
+          54.97367284314439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "North Somerset, County of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.767009735107422,
+          51.19530712987214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "North Tyneside",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.490793228149414,
+          55.02280699048105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Northamptonshire, County of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8711600303649902,
+          52.271663313663595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Nottingham, City of",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1487579345703125,
+          52.95153386296534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Nottinghamshire, County of",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9942948818206787,
+          53.10844685362619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Oldham",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1152114868164062,
+          53.54051141300265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Oxfordshire, County of",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2485575675964355,
+          51.78651966882674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Peterborough",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.24169921874999997,
+          52.57050767007743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Redbridge, London Borough of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07892131805419922,
+          51.58749640039717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Somerset, County of",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8463172912597656,
+          51.07095826501674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Southend-on-sea",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7106781005859375,
+          51.53565849143191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Southwark, London Borough of",
+        "infections": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07990837097167967,
+          51.48341405282735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Staffordshire, County of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0610523223876953,
+          52.884178105815984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Suffolk, County of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9482574462890624,
+          52.19298223677117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Sunderland",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3763809204101562,
+          54.90563267272846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Surrey, County of",
+        "infections": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5089759826660156,
+          51.295578387942776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Sutton",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19174575805664062,
+          51.35966945796908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Swindon",
+        "Infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.78802490234375,
+          51.559143609567016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Tameside, Borough of Greater Manchester",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.077188491821289,
+          53.482580860583475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Torbay, Borough of Devon",
+        "infections": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.552703857421875,
+          50.43531329734444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Tower Hamlets, London Borough of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.026950836181640625,
+          51.52292342317688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Trafford, Greater Manchester Borough of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.366352081298828,
+          53.41362469035691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Waltham Forest, London Borough of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02025604248046875,
+          51.59482843886289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Wandsworth, London Borough of",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19371986389160156,
+          51.45668106990573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Warwickshire, County of",
+        "infections": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4579200744628906,
+          52.27361969142019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "West Sussex, County of",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.46906471252441406,
+          50.93776991967491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Westminster",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13715744018554688,
+          51.49714871168257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Wigan",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6260757446289062,
+          53.544387634735024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Wiltshire, County of",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0060133934020996,
+          51.35333138491725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Wirral, Merseyside Borough of",
+        "infections": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.085784912109375,
+          53.38619515965807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Wokingham",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8366775512695311,
+          51.411199044550045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "Wolverhampton",
+        "infections": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.12860107421875,
+          52.58386028042404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "place": "York",
+        "infections": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0821533203125,
+          53.95527747164856
         ]
       }
     }
